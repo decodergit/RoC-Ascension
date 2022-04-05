@@ -1,5 +1,9 @@
 #!/bin/env python3
 
+'''
+Данная программа строит таблицы LaTeX Чудес Света на основании данных с сайта https://rise-of-cultures.fandom.com.
+'''
+
 import requests
 from bs4 import BeautifulSoup
 import math

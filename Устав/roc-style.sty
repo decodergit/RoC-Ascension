@@ -1,0 +1,161 @@
+\ProvidesPackage{roc-style}[2019/11/07 v1.0 Полезные функции и постоянно используемые пакеты.]
+\NeedsTeXFormat{LaTeX2e}
+
+\RequirePackage{enumerate}
+\RequirePackage{fancyhdr}
+\RequirePackage{graphicx}
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{tabu}
+\RequirePackage{forloop}
+\RequirePackage{calc}
+\RequirePackage{lipsum}
+\RequirePackage{setspace}
+\RequirePackage{atbegshi}
+\RequirePackage{blindtext}
+\RequirePackage{afterpage}
+\RequirePackage{float}
+\RequirePackage{supertabular}
+\RequirePackage{pdflscape}
+
+\RequirePackage[
+bookmarks=true, colorlinks=true, unicode=true,
+urlcolor=black,linkcolor=black, anchorcolor=black,
+citecolor=black, menucolor=black, filecolor=black,
+]{hyperref}
+
+\RequirePackage{graphicx}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X} % Центрированная колонка в tabularx
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X} % Выровненная по правому краю колонка в tabularx
+\newcolumntype{W}[1]{>{\centering\arraybackslash}m{#1}} % Центрированная колонка в tabularx
+\newcolumntype{G}[1]{>{\arraybackslash}m{#1}} % Выровненная по левому краю колонка в tabularx
+
+\doublespacing
+
+\hyphenpenalty=10000 % Запрет переноса слов
+%\hyphenpenalty=1000
+
+% Русский счётчик
+\newcommand*{\ralph}[1]{\@ralph{\@nameuse{c@#1}}}
+\newcommand*{\@ralph}[1]{\ifcase #1\or а\or б\or в\or г\or д\or е\or ж\or з\or и\or к\or л\or м\or н\or о\or п\or р\or с\or т\or у\or ф\or х\or ц\or ч\or ш\or щ\or э\or ю\or я\else\@ctrerr \fi}
+
+% Нумерация списков
+\renewcommand{\labelenumi}{\arabic{enumi})}
+\renewcommand{\labelenumii}{\ralph{enumii})}
+
+\sloppy
+
+% Произвольная нумерация списков.
+
+\setcounter{tocdepth}{3} %Подробность оглавления
+%4 это chapter, section, subsection, subsubsection и paragraph
+%3 это chapter, section, subsection и subsubsection
+%2 это chapter, section, и subsection
+%1 это chapter и section
+%0 это chapter.
+
+% Оформление глав.
+\newcommand{\sectionvspace}{\vspace{1.5cm plus 1cm minus 0.5cm}}
+\renewcommand\thesection{\textnormal{\S \@arabic\c@section}}
+
+\addto\captionsrussian
+{
+    \def\bibname{\textnormal{Л И Т Е Р А Т У Р А}}%
+}
+
+\renewcommand{\footrulewidth}{0mm}
+\renewcommand{\headrulewidth}{0mm}
+
+% Названия месяцоа для подписи о согласовании.
+\newcommand{\mesiatca}
+{
+    \ifcase\the\month
+    \or января   %1
+    \or февраля  %2
+    \or марта    %3
+    \or апреля   %4
+    \or мая      %5
+    \or июня     %6
+    \or июля     %7
+    \or августа  %8
+    \or сентября %9
+    \or октября  %10
+    \or ноября   %11
+    \or декабря  %12
+    \fi
+}
+
+% Текст, растянутый на всю строку без абзацного отступа в начале.
+\newcommand\WholeLineText[1]{\noindent\makebox[\linewidth][s]{#1}\newline}
+
+% Текст, растянутый на всю строку с абзацным отступом в начале.
+\newcommand\WholeLineTextWithIndent[1]{\noindent\makebox[\linewidth][s]{\hspace*{\parindent}#1}\newline}
+
+% Текст с линией до конца строки. Нужно когда в параграфе единственная строка, и её размер меньше строки.
+% Если в параграфе больше одной строки и нужно добить последнюю, то достаточно написать \underline{\hfill}.
+\newlength{\RemainingSpace}
+\newcommand\TextWithLineToEnd[1]
+{
+    \setlength{\RemainingSpace}{\textwidth-\widthof{#1}}
+    \noindent#1\underline{\hspace*{\RemainingSpace}}
+}
+% Сначала текст без подчёркивания.
+\newcommand\TextAndTextWithLineToEnd[2]
+{
+    \setlength{\RemainingSpace}{\textwidth-\widthof{#1 #2}}
+    \noindent#1\underline{#2\hspace*{\RemainingSpace}}
+}
+\newcommand\TextWithLineToEndIndented[1]
+{
+    \setlength{\RemainingSpace}{\textwidth-\parindent-\widthof{#1}}
+    #1\underline{\hspace*{\RemainingSpace}}
+}
+\newcommand\TextAndTextWithLineToEndIndented[2]
+{
+    \setlength{\RemainingSpace}{\textwidth-\parindent-\widthof{#1 #2}}
+    #1\underline{#2\hspace*{\RemainingSpace}}
+}
+
+% Линия для вписывания текста во всю ширину строки
+\newcommand\linefortext{\noindent\underline{\hspace{\textwidth}}\newline}
+
+% Пустые страницы для двусторонней печати
+% После команды \preface начинают генерироваться пустые страгицы.
+% После команды \main прекращают генерироваться пкстые страгицы.
+% WARNING Не совместимо с окружением longtable.
+\makeatletter
+\newif\ifpreface@nextblank
+
+\newcommand*\preface@blanks{}%
+\let\preface@blanks\relax
+\newcommand*\preface
+{%
+    \global\preface@nextblanktrue
+    \gdef\preface@blanks%
+    {%
+        \ifpreface@nextblank
+        \thispagestyle{empty}%
+        \addtocounter{page}{-1}%
+        \mbox{}%
+        \clearpage
+        \global\preface@nextblankfalse
+        \else
+        \global\preface@nextblanktrue
+        \fi
+    }%
+    \AtBeginShipout{\preface@blanks}
+}
+\newcommand*\main
+{%
+    \global\let\preface@blanks\relax
+}
+\makeatother
+
+% Настройка для того, чтобы плавающие элементы могли занимать больше места подряд и не размазывались по документу.
+\def\topfraction{0.9}
+\def\bottomfraction{0.9}
+\def\texrfraction{0.01}

@@ -1,18 +1,20 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  5 APR 2022 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  5 APR 2022 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"RoC BlackDragon.tex"
 (./RoC BlackDragon.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
-(/home/decoder/texmf/tex/my-modules/my-class.cls
-Document Class: my-class 2019/11/07 v1.0 Мой класс документа. Шихов Д.Ю.
-(/home/decoder/texmf/tex/my-modules/my-style-base.sty
-Package: my-style-base 2019/11/07 v1.0 Базовый вид и пакеты для моих документов
-. Шихов Д.Ю.
+L3 programming layer <2021-11-22> (./roc-class.cls
 
-(/usr/share/texmf-dist/tex/latex/extsizes/size14.clo
+LaTeX Warning: You have requested document class `roc-class',
+               but the document class provides `my-class'.
+
+Document Class: my-class 2019/11/07 v1.0 Мой класс документа. Шихов Д.Ю.
+(./roc-style-base.sty
+Package: roc-style-base 2019/11/07 v1.0 Базовый вид и пакеты для моих документо
+в.
+ (/usr/share/texmf-dist/tex/latex/extsizes/size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 \c@totalpage=\count179
@@ -418,13 +420,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks27
-)
-(/home/decoder/texmf/tex/my-modules/my-style-nir.sty
-Package: my-style-nir 2019/11/07 v1.0 Функции для оформления НИР. Шихов Д.Ю.
-)
-(/home/decoder/texmf/tex/my-modules/my-style.sty
-Package: my-style 2019/11/07 v1.0 Полезные функции и постоянно используемые пак
-еты. Шихов Д.Ю.
+) (./roc-style.sty
+Package: roc-style 2019/11/07 v1.0 Полезные функции и постоянно используемые па
+кеты.
 
 (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
@@ -812,14 +810,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package array Warning: Column W is already defined on input line 34.
 
 \RemainingSpace=\skip94
-) (/home/decoder/texmf/tex/my-modules/my-style-headers-and-signs.sty
-Package: my-style-headers-and-signs 2019/11/07 v1.0 Секретные заголовки и подпи
-си. Шихов Д.Ю.
-))
-(/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
+)) (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen272
-) (./RoC BlackDragon.aux)
+)
+(./RoC BlackDragon.aux)
 \openout1 = `"RoC BlackDragon.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -833,7 +828,7 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 3.
-(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 13.
@@ -1219,10 +1214,10 @@ Package rerunfilecheck Info: File `"RoC BlackDragon".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17771 strings out of 476257
- 343831 string characters out of 5816919
- 858636 words of memory out of 5000000
- 38081 multiletter control sequences out of 15000+600000
+ 17664 strings out of 476257
+ 341253 string characters out of 5816919
+ 853503 words of memory out of 5000000
+ 37981 multiletter control sequences out of 15000+600000
  406929 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,119p,508b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
