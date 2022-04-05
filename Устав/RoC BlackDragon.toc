@@ -1,0 +1,27 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {\textnormal {\S 1}}Чудеса Света}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 1}.1}Правила инвестирования}{3}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 1}.2}Призовые места}{5}{subsection.0.1.2}%
+\contentsline {subsubsection}{Стоунхендж}{5}{section*.2}%
+\contentsline {subsubsection}{Висячие Сады}{7}{section*.3}%
+\contentsline {subsubsection}{Статуя Зевса}{8}{section*.4}%
+\contentsline {subsubsection}{Храм Артемиды}{8}{section*.5}%
+\contentsline {subsubsection}{Колизей}{9}{section*.6}%
+\contentsline {subsubsection}{Софийский Собор}{9}{section*.7}%
+\contentsline {subsubsection}{Ахенский Дворец}{10}{section*.8}%
+\contentsline {section}{\numberline {\textnormal {\S 2}}Бой}{10}{section.0.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 2}.1}Расстановка}{10}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 2}.2}Командиры}{10}{subsection.0.2.2}%
+\contentsline {section}{\numberline {\textnormal {\S 3}}Охота за Сокровищами}{11}{section.0.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.1}Прохождение боями во время перехода между эпохами}{11}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.2}Прохождение боями с накоплением улучшений}{12}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.3}Переговоры}{13}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.4}Сундуки-чек-поинты}{14}{subsection.0.3.4}%
+\contentsline {section}{\numberline {\textnormal {\S 4}}Ивенты}{14}{section.0.4}%
+\contentsline {section}{\numberline {\textnormal {\S 5}}Прочее}{15}{section.0.5}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.1}Самоцветы}{15}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.2}Товары}{16}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.3}Двойной сбор}{16}{subsection.0.5.3}%
+\contentsline {section}{\numberline {\textnormal {\S 6}}Переход между эпохами}{16}{section.0.6}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.1}Из Греции в Древний Рим}{16}{subsection.0.6.1}%
+\contentsfinish 
