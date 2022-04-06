@@ -10,6 +10,24 @@ import math
 import pprint
 
 
+def get_number(number_text: str):
+    try:
+        number_text = number_text.replace(',', '').replace('\n', '').upper().strip()
+        if 'K' in number_text:
+            number = float(number_text[: number_text.find('K')].strip())
+        elif 'M' in number_text:
+            number = float(number_text[: number_text.find('M')].strip())
+        else:
+            number = float(number_text)
+        if 'K' in number_text:
+            number *= 1000
+        elif 'M' in number_text:
+            number *= 1000000
+    except:
+        return -1
+    return int(number)
+
+
 class Wonder:
     def __init__(self, name_en: str, name_ru: str):
         try:
@@ -20,17 +38,18 @@ class Wonder:
             # Загрузка общей информации.
             r = requests.get(f'https://rise-of-cultures.fandom.com/wiki/World_Wonders/{self.name_en}')
             table = BeautifulSoup(r.content, 'html5lib').find('table', attrs={'class': 'article-table'})
+            level_column = [cell.text.strip() for cell in table.find_all('tr')[0].find_all('td')].index('Level')
             for row in table.find_all('tr')[1:]:
                 cells = row.find_all('td')
-                numbers = cells[3].text.strip().split(' ')
-                if len(numbers) == 2 and numbers[0].isnumeric() and numbers[1].isnumeric():
+                numbers = [get_number(text) for text in cells[level_column + 1].text.strip().split(' ')]
+                if len(numbers) == 2 and numbers[0] != -1 and numbers[1] != -1:
                     level = {
-                        'research':  int(numbers[0]),
-                        'blueprint': int(numbers[1])
+                        'research':  numbers[0],
+                        'blueprint': numbers[1]
                     }
                 else:
                     break
-                self.levels[int(cells[2].text)] = level
+                self.levels[int(cells[level_column].text)] = level
 
             # Загрузка информации о наградах.
             r = requests.get('https://rise-of-cultures.fandom.com/wiki/World_Wonders/Contribution_Rewards')
