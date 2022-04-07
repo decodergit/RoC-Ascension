@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  6 APR 2022 17:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  7 APR 2022 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []\TU/TimesNewRoman(0)/m/n/14.4 сделайте вложение в любое чудо членов альянса
  []
 
-[4] [5] [6] [7] [8] [9] [10]) (./parts/Бой.tex
+[4] [5] [6] [7] [8] [9] [10] [11]) (./parts/Бой.tex
 Underfull \hbox (badness 1735) in paragraph at lines 9--11
 []\TU/TimesNewRoman(0)/m/n/14.4 Лучники вегда должны быть сзади. Если у врага е
 сть конница,
@@ -1070,7 +1070,7 @@ Underfull \hbox (badness 5893) in paragraph at lines 21--23
 дополнительный
  []
 
-[11]) (./parts/Сокровища.tex
+[12]) (./parts/Сокровища.tex
 Underfull \hbox (badness 1796) in paragraph at lines 42--1
 \TU/TimesNewRoman(0)/m/n/14.4 конница (Миноса придётся подождать: он регенериру
 ется чуть дольше
@@ -1082,7 +1082,7 @@ Underfull \hbox (badness 1371) in paragraph at lines 6--13
 вую эпоху. Главное
  []
 
-[12]
+
 Underfull \hbox (badness 6220) in paragraph at lines 14--18
 []\TU/TimesNewRoman(0)/m/n/14.4 Когда вы накопите достаточно ресурсов, ждите на
 чала новых
@@ -1100,7 +1100,7 @@ Underfull \hbox (badness 1721) in paragraph at lines 52--53
 туры можно
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 68--73
 []\TU/TimesNewRoman(0)/m/n/14.4 Начальные переговоры на 3 товара удобнее всего 
 проходить
@@ -1118,14 +1118,14 @@ Underfull \hbox (badness 2608) in paragraph at lines 86--93
 овар, а для
  []
 
-[14]
+
 Underfull \hbox (badness 1412) in paragraph at lines 94--95
 \OT1/cmr/m/n/14.4 0$\TU/TimesNewRoman(0)/m/n/14.4 ). Предлагаем и засчитываем т
 овару частоту принятия $\OML/cmm/m/it/14.4 ^^W[] \OT1/cmr/m/n/14.4 = 1$\TU/Time
 sNewRoman(0)/m/n/14.4 . Для
  []
 
-
+[15]
 Underfull \hbox (badness 3601) in paragraph at lines 96--100
 \TU/TimesNewRoman(0)/m/n/14.4 переговоры без колб, но не спешите их отдавать. П
 ервые два этапа
@@ -1137,7 +1137,7 @@ Underfull \hbox (badness 3612) in paragraph at lines 108--1
  2 жетона
  []
 
-[15]
+[16]
 Underfull \hbox (badness 1389) in paragraph at lines 30--34
 []\TU/TimesNewRoman(0)/m/n/14.4 Всего в ивенте 14 разных зданий и 21 день на вы
 полнение. За
@@ -1167,7 +1167,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--1
 брать
  []
 
-[16]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 24--27
 []\TU/TimesNewRoman(0)/m/n/14.4 Никогда не производите товары прошлый эпох. Пи 
 любой
@@ -1179,7 +1179,7 @@ Underfull \hbox (badness 1371) in paragraph at lines 24--27
 охи у товарищей
  []
 
-) (./parts/Переход между эпохами.tex [17] [18] [19] [20]
+) (./parts/Переход между эпохами.tex [18] [19] [20] [21]
 Underfull \hbox (badness 3323) in paragraph at lines 167--174
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
@@ -1197,23 +1197,23 @@ Underfull \hbox (badness 3323) in paragraph at lines 191--198
 ктивно работают
  []
 
-[21] [22] [23] [24] [25] [26]
+[22] [23] [24] [25] [26] [27]
 Underfull \hbox (badness 3323) in paragraph at lines 496--503
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
  []
 
-[27] [28]) [29] (./RoC BlackDragon.aux)
+[28] [29]) [30] (./RoC BlackDragon.aux)
 Package rerunfilecheck Info: File `"RoC BlackDragon".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
  17664 strings out of 476257
  341253 string characters out of 5816919
- 859168 words of memory out of 5000000
+ 862168 words of memory out of 5000000
  37981 multiletter control sequences out of 15000+600000
  406929 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,119p,508b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on RoC BlackDragon.pdf (29 pages).
+Output written on RoC BlackDragon.pdf (30 pages).

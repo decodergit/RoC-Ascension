@@ -119,7 +119,7 @@ class Wonder:
                 if 'prizes' in level:
                     tex_table += f'1 & {level["prizes"][0]["invest"]} & {level["prizes"][0]["research"]} & {level["prizes"][0]["blueprint"]} & {level["prizes"][0]["profit"]:.2f}'
                     for index in range(1, len(level["prizes"])):
-                        tex_table += f' \\\\\\cline{{4-8}}\n    & & & {index + 2} & {level["prizes"][index]["invest"]} & {level["prizes"][index]["research"]} & {level["prizes"][index]["blueprint"]} & {level["prizes"][index]["profit"]:.2f}'
+                        tex_table += f' \\\\\\cline{{4-8}}\n    & & & {index + 1} & {level["prizes"][index]["invest"]} & {level["prizes"][index]["research"]} & {level["prizes"][index]["blueprint"]} & {level["prizes"][index]["profit"]:.2f}'
                 else:
                     tex_table += '& & & &'
                 tex_table += ' \\\\\\hline\n'
