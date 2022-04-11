@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  11 APR 2022 16:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.3.11)  11 APR 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,13 +1071,361 @@ Underfull \hbox (badness 5893) in paragraph at lines 21--23
 дополнительный
  []
 
-[17]) (./parts/Сокровища.tex
-Underfull \hbox (badness 1796) in paragraph at lines 42--1
+[17]
+Underfull \hbox (badness 1796) in paragraph at lines 42--48
 \TU/TimesNewRoman(0)/m/n/14.4 конница (Миноса придётся подождать: он регенериру
 ется чуть дольше
  []
 
 
+Overfull \hbox (6.79408pt too wide) in alignment at lines 52--54
+[] [] [] 
+ []
+
+File: ./parts/media/TreasureHunt/21/sargon/photo_2022-04-06_18-11-33.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/21/sargon/photo_2022-04-06_18-11-33.jpg>
+File: ./parts/media/TreasureHunt/21/sargon/photo_2022-04-06_18-11-59.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/21/sargon/photo_2022-04-06_18-11-59.jpg>
+File: ./parts/media/TreasureHunt/22/decoder/photo_2022-04-06_18-08-54.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/22/decoder/photo_2022-04-06_18-08-54.jpg>
+File: ./parts/media/TreasureHunt/22/decoder/photo_2022-04-06_18-09-25.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/22/decoder/photo_2022-04-06_18-09-25.jpg>
+File: ./parts/media/TreasureHunt/22/sargon/photo_2022-04-06_18-12-13.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/22/sargon/photo_2022-04-06_18-12-13.jpg>
+File: ./parts/media/TreasureHunt/22/sargon/photo_2022-04-06_18-12-03.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/22/sargon/photo_2022-04-06_18-12-03.jpg>
+File: ./parts/media/TreasureHunt/23/sargon/photo_2022-04-06_18-12-26.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/23/sargon/photo_2022-04-06_18-12-26.jpg>
+File: ./parts/media/TreasureHunt/23/sargon/photo_2022-04-06_18-12-18.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/23/sargon/photo_2022-04-06_18-12-18.jpg>
+File: ./parts/media/TreasureHunt/24/decoder/photo_2022-04-06_18-10-13.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/24/decoder/photo_2022-04-06_18-10-13.jpg>
+File: ./parts/media/TreasureHunt/24/decoder/photo_2022-04-06_18-10-02.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/24/decoder/photo_2022-04-06_18-10-02.jpg>
+File: ./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-20.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-20.jpg>
+File: ./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-30.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-30.jpg>
+File: ./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-34.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/25/decoder/photo_2022-04-06_18-10-34.jpg>
+File: ./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-31.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-31.jpg>
+File: ./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-35.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-35.jpg>
+File: ./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-16.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-16.jpg>
+File: ./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-27.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/sargon/photo_2022-04-07_09-58-27.jpg>
+File: ./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-19.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-19.jpg>
+File: ./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-08.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-08.jpg>
+File: ./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-24.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/25/alexey/photo_2022-04-07_10-09-24.jpg>
+File: ./parts/media/TreasureHunt/26/decoder/photo_2022-04-06_18-11-23.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/26/decoder/photo_2022-04-06_18-11-23.jpg>
+File: ./parts/media/TreasureHunt/26/decoder/photo_2022-04-06_18-11-14.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/26/decoder/photo_2022-04-06_18-11-14.jpg>
+File: ./parts/media/TreasureHunt/26/alexey/photo_2022-04-07_10-09-39.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/26/alexey/photo_2022-04-07_10-09-39.jpg>
+File: ./parts/media/TreasureHunt/26/alexey/photo_2022-04-07_10-09-28.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/26/alexey/photo_2022-04-07_10-09-28.jpg>
+File: ./parts/media/TreasureHunt/29/decoder/photo_2022-04-07_09-59-23.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/29/decoder/photo_2022-04-07_09-59-23.jpg>
+File: ./parts/media/TreasureHunt/29/decoder/photo_2022-04-07_09-59-10.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/29/decoder/photo_2022-04-07_09-59-10.jpg>
+File: ./parts/media/TreasureHunt/29/sargon/photo_2022-04-07_10-03-11.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/29/sargon/photo_2022-04-07_10-03-11.jpg>
+File: ./parts/media/TreasureHunt/29/sargon/photo_2022-04-07_10-02-57.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/29/sargon/photo_2022-04-07_10-02-57.jpg>
+File: ./parts/media/TreasureHunt/29/alexey/photo_2022-04-07_13-18-00.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/29/alexey/photo_2022-04-07_13-18-00.jpg>
+File: ./parts/media/TreasureHunt/29/alexey/photo_2022-04-07_13-17-44.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/29/alexey/photo_2022-04-07_13-17-44.jpg>
+File: ./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_09-59-28.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_09-59-28.jpg>
+File: ./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_10-00-22.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_10-00-22.jpg>
+File: ./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_10-00-32.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_10-00-32.jpg>
+File: ./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_09-59-40.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/30/decoder/photo_2022-04-07_09-59-40.jpg>
+File: ./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-05-00.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-05-00.jpg>
+File: ./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-05-04.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-05-04.jpg>
+File: ./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-04-47.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/sargon/photo_2022-04-07_10-04-47.jpg>
+File: ./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-42.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-42.jpg>
+File: ./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-46.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-46.jpg>
+File: ./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-29.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/30/alexey/photo_2022-04-07_14-26-29.jpg>
+File: ./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_10-00-46.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_10-00-46.jpg>
+File: ./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_09-59-58.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_09-59-58.jpg>
+File: ./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_09-59-48.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_09-59-48.jpg>
+File: ./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_10-00-36.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/31/decoder/photo_2022-04-07_10-00-36.jpg>
+File: ./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-22.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-22.jpg>
+File: ./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-08.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-08.jpg>
+File: ./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-25.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-25.jpg>
+File: ./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-18.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/31/sargon/photo_2022-04-07_10-05-18.jpg>
+File: ./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-48.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-48.jpg>
+File: ./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-57.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-57.jpg>
+File: ./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-54.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-01-54.jpg>
+File: ./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-00-59.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/32/decoder/photo_2022-04-07_10-00-59.jpg>
+File: ./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-45.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-45.jpg>
+File: ./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-42.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-42.jpg>
+File: ./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-31.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-31.jpg>
+File: ./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-39.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/32/sargon/photo_2022-04-07_10-05-39.jpg>
+File: ./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-27.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-27.jpg>
+File: ./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-23.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-23.jpg>
+File: ./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-19.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-19.jpg>
+File: ./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-11.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/33/decoder/photo_2022-04-07_10-02-11.jpg>
+File: ./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-34.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-34.jpg>
+File: ./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-22.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-22.jpg>
+File: ./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-37.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-37.jpg>
+File: ./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-40.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/33/sargon/photo_2022-04-07_10-06-40.jpg>
+File: ./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-34.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-34.jpg>
+File: ./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-43.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-43.jpg>
+File: ./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-46.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-46.jpg>
+File: ./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-50.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/34/decoder/photo_2022-04-07_10-02-50.jpg>
+File: ./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-16.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-16.jpg>
+File: ./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-19.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-19.jpg>
+File: ./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-23.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-23.jpg>
+File: ./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-04.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/34/sargon/photo_2022-04-07_10-08-04.jpg>
+File: ./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-08.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-08.jpg>
+File: ./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-05-55.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-05-55.jpg>
+File: ./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-14.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-14.jpg>
+File: ./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-11.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/35/decoder/photo_2022-04-07_10-06-11.jpg>
+File: ./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-41.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-41.jpg>
+File: ./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-45.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-45.jpg>
+File: ./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-33.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-33.jpg>
+File: ./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-48.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/35/sargon/photo_2022-04-07_10-08-48.jpg>
+File: ./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-13.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-13.jpg>
+File: ./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-32.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-32.jpg>
+File: ./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-28.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-28.jpg>
+File: ./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-36.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/36/decoder/photo_2022-04-07_10-07-36.jpg>
+File: ./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-43.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-43.jpg>
+File: ./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-23.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-23.jpg>
+File: ./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-46.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-46.jpg>
+File: ./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-40.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/36/sargon/photo_2022-04-07_13-16-40.jpg>
+File: ./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-16-57.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-16-57.jpg>
+File: ./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-17-09.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-17-09.jpg>
+File: ./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-16-49.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-16-49.jpg>
+File: ./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-17-01.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/37/sargon/photo_2022-04-07_13-17-01.jpg>
+File: ./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-19.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-19.jpg>
+File: ./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-01.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-01.jpg>
+File: ./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-16.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-16.jpg>
+File: ./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-23.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/38/decoder/photo_2022-04-07_10-10-23.jpg>
+File: ./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-31.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-31.jpg>
+File: ./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-35.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-35.jpg>
+File: ./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-28.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-28.jpg>
+File: ./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-20.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/38/sargon/photo_2022-04-07_13-17-20.jpg>
+File: ./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-43.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-43.jpg>
+File: ./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-36.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-36.jpg>
+File: ./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-39.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-39.jpg>
+File: ./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-27.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/39/decoder/photo_2022-04-07_13-15-27.jpg>
+File: ./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-31.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-31.jpg>
+File: ./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-09.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-09.jpg>
+File: ./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-26.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-26.jpg>
+File: ./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-21.jpg Graphi
+c file (type bmp)
+<./parts/media/TreasureHunt/39/sargon/photo_2022-04-07_13-18-21.jpg>
+File: ./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-12.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-12.jpg>
+File: ./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-15.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-15.jpg>
+File: ./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-15-51.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-15-51.jpg>
+File: ./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-08.jpg Graph
+ic file (type bmp)
+<./parts/media/TreasureHunt/40/decoder/photo_2022-04-07_13-16-08.jpg>
+
+Overfull \hbox (6.79408pt too wide) in alignment at lines 54--313
+[] [] [] 
+ []
+
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46])
+(./parts/Сокровища.tex
 Underfull \hbox (badness 1371) in paragraph at lines 6--13
 \TU/TimesNewRoman(0)/m/n/14.4 Их вы откроете (постепенно), когда перейдёте в но
 вую эпоху. Главное
@@ -1095,13 +1443,13 @@ Underfull \hbox (badness 1661) in paragraph at lines 21--24
  Но они довольно
  []
 
-[18]
+[47]
 Underfull \hbox (badness 1721) in paragraph at lines 52--53
 []\TU/TimesNewRoman(0)/m/n/14.4 В конце Греции на малых и средних объектах куль
 туры можно
  []
 
-
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 68--73
 []\TU/TimesNewRoman(0)/m/n/14.4 Начальные переговоры на 3 товара удобнее всего 
 проходить
@@ -1113,7 +1461,7 @@ Underfull \hbox (badness 5592) in paragraph at lines 68--73
 м монеты. На
  []
 
-[19]
+
 Underfull \hbox (badness 2608) in paragraph at lines 86--93
 []\TU/TimesNewRoman(0)/m/n/14.4 На третьем этапе некоторые пираты уже приняли т
 овар, а для
@@ -1126,19 +1474,19 @@ Underfull \hbox (badness 1412) in paragraph at lines 94--95
 sNewRoman(0)/m/n/14.4 . Для
  []
 
-
+[49]
 Underfull \hbox (badness 3601) in paragraph at lines 96--100
 \TU/TimesNewRoman(0)/m/n/14.4 переговоры без колб, но не спешите их отдавать. П
 ервые два этапа
  []
 
-[20]) (./parts/Ивенты.tex
+) (./parts/Ивенты.tex
 Underfull \hbox (badness 3612) in paragraph at lines 108--1
 []\TU/TimesNewRoman(0)/m/n/14.4 Уже в 9-ом сундуке с 35%-ной вероятностью лежат
  2 жетона
  []
 
-[21]
+[50]
 Underfull \hbox (badness 1389) in paragraph at lines 30--34
 []\TU/TimesNewRoman(0)/m/n/14.4 Всего в ивенте 14 разных зданий и 21 день на вы
 полнение. За
@@ -1168,7 +1516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--1
 брать
  []
 
-[22]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 24--27
 []\TU/TimesNewRoman(0)/m/n/14.4 Никогда не производите товары прошлый эпох. Пи 
 любой
@@ -1180,13 +1528,13 @@ Underfull \hbox (badness 1371) in paragraph at lines 24--27
 охи у товарищей
  []
 
-) (./parts/Переход между эпохами.tex [23] [24] [25]
+) (./parts/Переход между эпохами.tex [52] [53] [54] [55]
 Underfull \hbox (badness 3323) in paragraph at lines 167--174
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
  []
 
-[26]
+
 Underfull \hbox (badness 1292) in paragraph at lines 191--198
 \TU/TimesNewRoman(0)/m/n/14.4 вкладов в Чудеса равным 0,185, то это 64 дня. Есл
 и считать, что три
@@ -1198,23 +1546,23 @@ Underfull \hbox (badness 3323) in paragraph at lines 191--198
 ктивно работают
  []
 
-[27] [28] [29] [30] [31] [32]
+[56] [57] [58] [59] [60] [61]
 Underfull \hbox (badness 3323) in paragraph at lines 496--503
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
  []
 
-[33]) [34] (./RoC BlackDragon.aux)
+[62] [63]) [64] (./RoC BlackDragon.aux)
 Package rerunfilecheck Info: File `"RoC BlackDragon".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17664 strings out of 476257
- 341253 string characters out of 5816919
- 875162 words of memory out of 5000000
- 37981 multiletter control sequences out of 15000+600000
+ 18597 strings out of 476257
+ 401809 string characters out of 5816919
+ 875292 words of memory out of 5000000
+ 38766 multiletter control sequences out of 15000+600000
  406929 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,119p,508b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on RoC BlackDragon.pdf (34 pages).
+Output written on RoC BlackDragon.pdf (64 pages).
