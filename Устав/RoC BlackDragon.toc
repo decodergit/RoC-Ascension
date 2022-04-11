@@ -4,28 +4,28 @@
 \contentsline {subsection}{\numberline {\textnormal {\S 1}.2}Призовые места}{5}{subsection.0.1.2}%
 \contentsline {subsubsection}{Стоунхендж}{5}{section*.2}%
 \contentsline {subsubsection}{Висячие Сады}{7}{section*.3}%
-\contentsline {subsubsection}{Статуя Зевса}{8}{section*.4}%
-\contentsline {subsubsection}{Храм Артемиды}{10}{section*.5}%
-\contentsline {subsubsection}{Колизей}{10}{section*.6}%
-\contentsline {subsubsection}{Софийский Собор}{11}{section*.7}%
-\contentsline {subsubsection}{Ахенский Дворец}{11}{section*.8}%
-\contentsline {section}{\numberline {\textnormal {\S 2}}Бой}{12}{section.0.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 2}.1}Расстановка}{12}{subsection.0.2.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 2}.2}Командиры}{12}{subsection.0.2.2}%
-\contentsline {section}{\numberline {\textnormal {\S 3}}Охота за Сокровищами}{13}{section.0.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.1}Прохождение боями во время перехода между эпохами}{13}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.2}Прохождение боями с накоплением улучшений}{14}{subsection.0.3.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.3}Переговоры}{15}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.4}Сундуки-чек-поинты}{16}{subsection.0.3.4}%
-\contentsline {section}{\numberline {\textnormal {\S 4}}Ивенты}{16}{section.0.4}%
-\contentsline {section}{\numberline {\textnormal {\S 5}}Прочее}{17}{section.0.5}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.1}Самоцветы}{17}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.2}Товары}{18}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.3}Двойной сбор}{18}{subsection.0.5.3}%
-\contentsline {section}{\numberline {\textnormal {\S 6}}Переход между эпохами}{18}{section.0.6}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.1}Классическая Греция}{19}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.2}Древний Рим}{20}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.3}Римская Империя}{22}{subsection.0.6.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.4}Византийская Эпоха}{25}{subsection.0.6.4}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.5}Эпоха Франков}{28}{subsection.0.6.5}%
+\contentsline {subsubsection}{Статуя Зевса}{9}{section*.4}%
+\contentsline {subsubsection}{Храм Артемиды}{11}{section*.5}%
+\contentsline {subsubsection}{Колизей}{12}{section*.6}%
+\contentsline {subsubsection}{Софийский Собор}{14}{section*.7}%
+\contentsline {subsubsection}{Ахенский Дворец}{15}{section*.8}%
+\contentsline {section}{\numberline {\textnormal {\S 2}}Бой}{17}{section.0.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 2}.1}Расстановка}{17}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 2}.2}Командиры}{17}{subsection.0.2.2}%
+\contentsline {section}{\numberline {\textnormal {\S 3}}Охота за Сокровищами}{18}{section.0.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.1}Прохождение боями во время перехода между эпохами}{18}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.2}Прохождение боями с накоплением улучшений}{18}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.3}Переговоры}{20}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.4}Сундуки-чек-поинты}{21}{subsection.0.3.4}%
+\contentsline {section}{\numberline {\textnormal {\S 4}}Ивенты}{21}{section.0.4}%
+\contentsline {section}{\numberline {\textnormal {\S 5}}Прочее}{22}{section.0.5}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.1}Самоцветы}{22}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.2}Товары}{22}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.3}Двойной сбор}{23}{subsection.0.5.3}%
+\contentsline {section}{\numberline {\textnormal {\S 6}}Переход между эпохами}{23}{section.0.6}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.1}Классическая Греция}{23}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.2}Древний Рим}{25}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.3}Римская Империя}{27}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.4}Византийская Эпоха}{30}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.5}Эпоха Франков}{32}{subsection.0.6.5}%
 \contentsfinish 

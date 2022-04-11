@@ -28,6 +28,13 @@ def get_number(number_text: str):
     return int(number)
 
 
+def number_or_question(value):
+    try:
+        return f'{value:.2f}'
+    except:
+        return str(value)
+
+
 class Wonder:
     def __init__(self, name_en: str, name_ru: str):
         try:
@@ -48,7 +55,10 @@ class Wonder:
                         'blueprint': numbers[1]
                     }
                 else:
-                    break
+                    level = {
+                        'research': '?',
+                        'blueprint': '?'
+                    }
                 self.levels[int(cells[level_column].text)] = level
 
             # Загрузка информации о наградах.
@@ -74,12 +84,17 @@ class Wonder:
                                 prize['research'] = int(numbers[0])
                                 prize['blueprint'] = 0
                         else:
-                            break
+                            prize['research'] = '?'
+                            prize['blueprint'] = '?'
                         if len(prize) > 0:
                             prize['position'] = pos_index
-                            invest = math.ceil(self.levels[level_id]['research'] / (2**pos_index))
-                            prize['invest'] = invest
-                            prize['profit'] = prize['research'] / invest
+                            try:
+                                invest = math.ceil(self.levels[level_id]['research'] / (2**pos_index))
+                                prize['invest'] = invest
+                                prize['profit'] = prize['research'] / invest
+                            except:
+                                prize['invest'] = '?'
+                                prize['profit'] = '?'
                             pos_index += 1
                             prizes.append(prize)
                     if len(prizes):
@@ -117,9 +132,9 @@ class Wonder:
                     prizes_quant = len(level["prizes"])
                 tex_table += f'    \\multirow{{{prizes_quant}}}{{*}}{{{level_id}}} & \\multirow{{{prizes_quant}}}{{*}}{{{level["research"]}}} & \\multirow{{{prizes_quant}}}{{*}}{{{level["blueprint"]}}} & '
                 if 'prizes' in level:
-                    tex_table += f'1 & {level["prizes"][0]["invest"]} & {level["prizes"][0]["research"]} & {level["prizes"][0]["blueprint"]} & {level["prizes"][0]["profit"]:.2f}'
+                    tex_table += f'1 & {level["prizes"][0]["invest"]} & {level["prizes"][0]["research"]} & {level["prizes"][0]["blueprint"]} & {number_or_question(level["prizes"][0]["profit"])}'
                     for index in range(1, len(level["prizes"])):
-                        tex_table += f' \\\\\\cline{{4-8}}\n    & & & {index + 1} & {level["prizes"][index]["invest"]} & {level["prizes"][index]["research"]} & {level["prizes"][index]["blueprint"]} & {level["prizes"][index]["profit"]:.2f}'
+                        tex_table += f' \\\\\\cline{{4-8}}\n    & & & {index + 1} & {level["prizes"][index]["invest"]} & {level["prizes"][index]["research"]} & {level["prizes"][index]["blueprint"]} & {number_or_question(level["prizes"][index]["profit"])}'
                 else:
                     tex_table += '& & & &'
                 tex_table += ' \\\\\\hline\n'
