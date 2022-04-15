@@ -13,20 +13,20 @@
 \contentsline {subsection}{\numberline {\textnormal {\S 2}.1}Расстановка}{17}{subsection.0.2.1}%
 \contentsline {subsection}{\numberline {\textnormal {\S 2}.2}Командиры}{17}{subsection.0.2.2}%
 \contentsline {subsection}{\numberline {\textnormal {\S 2}.3}Примеры расстановки во втором уровне Охоты за Сокровищами}{18}{subsection.0.2.3}%
-\contentsline {section}{\numberline {\textnormal {\S 3}}Охота за Сокровищами}{47}{section.0.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.1}Прохождение боями во время перехода между эпохами}{47}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.2}Прохождение боями с накоплением улучшений}{48}{subsection.0.3.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.3}Переговоры}{49}{subsection.0.3.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 3}.4}Сундуки-чек-поинты}{50}{subsection.0.3.4}%
-\contentsline {section}{\numberline {\textnormal {\S 4}}Ивенты}{50}{section.0.4}%
-\contentsline {section}{\numberline {\textnormal {\S 5}}Прочее}{51}{section.0.5}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.1}Самоцветы}{51}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.2}Товары}{52}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 5}.3}Двойной сбор}{52}{subsection.0.5.3}%
-\contentsline {section}{\numberline {\textnormal {\S 6}}Переход между эпохами}{52}{section.0.6}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.1}Классическая Греция}{53}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.2}Древний Рим}{54}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.3}Римская Империя}{56}{subsection.0.6.3}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.4}Византийская Эпоха}{59}{subsection.0.6.4}%
-\contentsline {subsection}{\numberline {\textnormal {\S 6}.5}Эпоха Франков}{62}{subsection.0.6.5}%
+\contentsline {section}{\numberline {\textnormal {\S 3}}Охота за Сокровищами}{54}{section.0.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.1}Прохождение боями во время перехода между эпохами}{54}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.2}Прохождение боями с накоплением улучшений}{55}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.3}Переговоры}{56}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 3}.4}Сундуки-чек-поинты}{57}{subsection.0.3.4}%
+\contentsline {section}{\numberline {\textnormal {\S 4}}Ивенты}{57}{section.0.4}%
+\contentsline {section}{\numberline {\textnormal {\S 5}}Прочее}{59}{section.0.5}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.1}Самоцветы}{59}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.2}Товары}{59}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 5}.3}Двойной сбор}{59}{subsection.0.5.3}%
+\contentsline {section}{\numberline {\textnormal {\S 6}}Переход между эпохами}{60}{section.0.6}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.1}Классическая Греция}{60}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.2}Древний Рим}{62}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.3}Римская Империя}{63}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.4}Византийская Эпоха}{66}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {\textnormal {\S 6}.5}Эпоха Франков}{69}{subsection.0.6.5}%
 \contentsfinish 
