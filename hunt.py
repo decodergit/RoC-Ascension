@@ -10,6 +10,7 @@ user_names = {
     'alexey': 'Алексей',
     'decoder': 'decoder',
     'sargon': 'Sargon',
+    'Preyton': 'Preyton'
 }
 
 two_waves = {25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40}
