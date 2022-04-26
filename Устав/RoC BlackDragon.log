@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.4.16)  25 APR 2022 09:33
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.4.16)  26 APR 2022 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,6 +973,8 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write3
 \openout3 = `"RoC BlackDragon.out"'.
 
+File: logo.png Graphic file (type bmp)
+<logo.png>
  [1
 
 ] (./RoC BlackDragon.toc
@@ -1502,10 +1504,10 @@ Package rerunfilecheck Info: File `"RoC BlackDragon".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 18278 strings out of 476180
- 376173 string characters out of 5815297
+ 18292 strings out of 476180
+ 376348 string characters out of 5815297
  873941 words of memory out of 5000000
- 38589 multiletter control sequences out of 15000+600000
+ 38602 multiletter control sequences out of 15000+600000
  472758 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,119p,572b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
