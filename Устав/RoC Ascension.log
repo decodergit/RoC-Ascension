@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.4.16)  27 APR 2022 16:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2022.5.11)  11 MAY 2022 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,17 +168,29 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
 
 
 Package fontspec Info: Font family 'DejaVuSans(0)' created for font 'DejaVu
@@ -1421,18 +1433,30 @@ sNewRoman(0)/m/n/14.4 . Для
  []
 
 [52]
-Underfull \hbox (badness 3601) in paragraph at lines 96--100
+Underfull \hbox (badness 1552) in paragraph at lines 96--101
+[]\TU/TimesNewRoman(0)/m/n/14.4 Обязательно следите за тем, что говорят вам пир
+аты о товарах,
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 96--101
+\TU/TimesNewRoman(0)/m/n/14.4 которые нужны другим пиратам. Не обращайте вниман
+ия на то, что
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 102--106
 \TU/TimesNewRoman(0)/m/n/14.4 переговоры без колб, но не спешите их отдавать. П
 ервые два этапа
  []
 
-) (./parts/Ивенты.tex
-Underfull \hbox (badness 3612) in paragraph at lines 108--1
+
+Underfull \hbox (badness 3612) in paragraph at lines 114--115
 []\TU/TimesNewRoman(0)/m/n/14.4 Уже в 9-ом сундуке с 35%-ной вероятностью лежат
  2 жетона
  []
 
-[53]
+) (./parts/Ивенты.tex [53]
 Underfull \hbox (badness 1389) in paragraph at lines 30--34
 []\TU/TimesNewRoman(0)/m/n/14.4 Всего в ивенте 14 разных зданий и 21 день на вы
 полнение. За
@@ -1456,13 +1480,13 @@ Underfull \hbox (badness 3536) in paragraph at lines 35--41
 за дня. Если это
  []
 
-) (./parts/Прочее.tex
+[54]) (./parts/Прочее.tex
 Underfull \hbox (badness 10000) in paragraph at lines 42--1
 []\TU/TimesNewRoman(0)/m/n/14.4 НО! Жетоны улучшения эпохи особых зданий нужно 
 брать
  []
 
-[54]
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--27
 []\TU/TimesNewRoman(0)/m/n/14.4 Никогда не производите товары прошлый эпох. Пи 
 любой
@@ -1474,13 +1498,13 @@ Underfull \hbox (badness 1371) in paragraph at lines 24--27
 охи у товарищей
  []
 
-) (./parts/Переход между эпохами.tex [55] [56] [57] [58]
+[55]) (./parts/Переход между эпохами.tex [56] [57] [58]
 Underfull \hbox (badness 3323) in paragraph at lines 167--174
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
  []
 
-
+[59]
 Underfull \hbox (badness 1292) in paragraph at lines 191--198
 \TU/TimesNewRoman(0)/m/n/14.4 вкладов в Чудеса равным 0,185, то это 64 дня. Есл
 и считать, что три
@@ -1492,21 +1516,21 @@ Underfull \hbox (badness 3323) in paragraph at lines 191--198
 ктивно работают
  []
 
-[59] [60] [61] [62] [63] [64]
+[60] [61] [62] [63] [64] [65]
 Underfull \hbox (badness 3323) in paragraph at lines 496--503
 \TU/TimesNewRoman(0)/m/n/14.4 максимально культурно прокачанные мастерские эффе
 ктивно работают
  []
 
-[65] [66]) [67] (./RoC Ascension.aux)
+[66]) [67] (./RoC Ascension.aux)
 Package rerunfilecheck Info: File `"RoC Ascension".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 18292 strings out of 476180
- 376300 string characters out of 5815297
- 873931 words of memory out of 5000000
- 38602 multiletter control sequences out of 15000+600000
+ 18301 strings out of 476180
+ 376974 string characters out of 5815297
+ 873974 words of memory out of 5000000
+ 38612 multiletter control sequences out of 15000+600000
  472758 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,119p,570b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
