@@ -1,0 +1,29 @@
+Устанавливаем FDroid c f-droid.org
+Открываем и ждём пока не обновятся репозитории
+Ищем и устанавливаем Termux и Termux:API
+Открываем Termux печатаем (попутно соглашаясь на всё кнопкой ввода, когда прогресс останавливается):
+pkg upgrade
+pkg install root-repo
+pkg install android-tools python gdb tsu git
+
+APPPID=`sudo ps -A | grep riseofcultures | awk '{print $1}'`
+sudo gdb -p ${APPPID}
+pi
+import gdb
+s = gdb.execute('info proc mappings', to_string=True)
+mem=s.split('\n')
+
+process 14051
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset objfile
+      0x55d48514d000     0x55d485180000    0x33000        0x0 /usr/bin/kate
+      0x55d485180000     0x55d4851e5000    0x65000    0x33000 /usr/bin/kate
+      0x55d4851e5000     0x55d48523d000    0x58000    0x98000 /usr/bin/kate
+      0x55d48523d000     0x55d485246000     0x9000    0xef000 /usr/bin/kate
+      0x55d485246000     0x55d485247000     0x1000    0xf8000 /usr/bin/kate
+      0x55d485a94000     0x55d487534000  0x1aa0000        0x0 [heap]
+>>> s = gdb.execute('x/4xb 0x55d48514d000')
+0x55d48514d000: 0x7f    0x45    0x4c    0x46
+
+
