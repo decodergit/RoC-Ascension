@@ -21,6 +21,7 @@ for line in gdb.execute('info proc mappings', to_string=True).split('\n')[4:]:
 delta = list()
 for record in mem:
     if record not in first_mem:
-        s = gdb.execute(f'x/{record[1]}xb {record[0]}', to_string=True)
-        delta.append((record, s))
+        if record[1] <= 128:
+            s = gdb.execute(f'x/{record[1]}xb {record[0]}', to_string=True)
+            delta.append((record, s))
 pickle.dump(delta, open('delta.dump', 'wb'))    
