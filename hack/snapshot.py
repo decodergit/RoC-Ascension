@@ -1,6 +1,10 @@
 import gdb
 import pickle
 
+wrong_words = {
+    'dalvik', 'boot', 'font', 'Chrome', 'kgsl', 'system', 'lib', 'Audio', 
+    'System', '.dat', '/dev/__properties__', 'dex', 'apk', 'web', 'config', 
+    'cfi', 'binder', '.bss', 'thread', 'bionic'}
 mem_obj = dict()
 
 def mem_snapshot(line:str):
@@ -16,8 +20,12 @@ def mem_snapshot(line:str):
             mem_obj[objfile] = [mem_obj[objfile][0] + 1, mem_obj[objfile][1] + size]
         else:
             mem_obj[objfile] = [1, size]
-        return None
-        if objfile == '' or 'lib' in objfile:
+        good = True
+        for word in wrong_words:
+            if word in objfile:
+                good = False
+                break
+        if not good:
             return None
         offset = 0
         dump = bytes()
