@@ -16,6 +16,7 @@ def mem_snapshot(line:str):
             objfile = line[4]
         else:
             objfile = ''
+            return None
         if objfile in mem_obj:
             mem_obj[objfile] = [mem_obj[objfile][0] + 1, mem_obj[objfile][1] + size]
         else:
