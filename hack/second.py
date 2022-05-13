@@ -6,7 +6,11 @@ def mem_pair(line:str):
         line = line.split()
         start = line[0]
         size = int(line[2], 16)
-        return (start, size)
+        if len(line) >= 5:
+            objfile = line[4]
+        else:
+            objfile = ''
+        return (start, size, objfile)
     except:
         return None
     

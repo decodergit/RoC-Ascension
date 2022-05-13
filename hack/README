@@ -28,3 +28,7 @@ Mapped address spaces:
 
 git stash
 git pull
+
+adb -s 859aed07 pull /sdcard/Download/first.dump
+adb -s 859aed07 pull /sdcard/Download/delta.dump
+
