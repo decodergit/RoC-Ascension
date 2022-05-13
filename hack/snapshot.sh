@@ -4,11 +4,11 @@
 while : ;
 do
   read -p "Сделать снимок [y/n]" answer
-  if [[ "$answer" == "n" ]];
+  if [ "$answer" = "n" ];
   then
     break 
   fi
-  if [[ "$answer" == "y" ]];
+  if [ "$answer" = "y" ];
   then
     echo $i > index
     APPNAME=riseofcultures
