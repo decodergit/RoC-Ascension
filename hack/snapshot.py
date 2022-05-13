@@ -1,6 +1,8 @@
 import gdb
 import pickle
 
+mem_obj = dict()
+
 def mem_snapshot(line:str):
     try:
         line = line.split()
@@ -10,6 +12,11 @@ def mem_snapshot(line:str):
             objfile = line[4]
         else:
             objfile = ''
+        if objfile in mem_obj:
+            mem_obj[objfile] = [mem_obj[objfile][0] + 1, mem_obj[objfile][1] + size]
+        else:
+            mem_obj[objfile] = [1, size]
+        return None
         if objfile == '' or 'lib' in objfile:
             return None
         offset = 0
@@ -35,4 +42,5 @@ for line in gdb.execute('info proc mappings', to_string=True).split('\n')[4:]:
         print((record[0], record[1], record[2]))
         mem[(record[0], record[1], record[2])] = record[3]
 index = int(open('./index', 'r').read())
-pickle.dump(mem, open(f'{index:03d}.dump', 'wb'))    
+pickle.dump(mem, open(f'{index:03d}.dump', 'wb')) 
+pickle.dump(mem_obj, open('mem_obj.dump', 'wb'))    
