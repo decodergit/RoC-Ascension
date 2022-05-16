@@ -4,7 +4,7 @@
 Открываем Termux печатаем (попутно соглашаясь на всё кнопкой ввода, когда прогресс останавливается):
 pkg upgrade
 pkg install root-repo
-pkg install android-tools python gdb tsu git
+pkg install android-tools python gdb tsu git strace 
 
 APPPID=`sudo ps -A | grep riseofcultures | awk '{print $1}'`
 sudo gdb -p ${APPPID}
@@ -31,4 +31,6 @@ git pull
 
 adb -s 859aed07 pull /sdcard/Download/first.dump
 adb -s 859aed07 pull /sdcard/Download/delta.dump
+
+sudo strace -f -e trace=memory -o trace.out -p 601152
 

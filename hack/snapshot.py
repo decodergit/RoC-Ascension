@@ -1,16 +1,13 @@
 import gdb
 import pickle
 
-wrong_words = {
-    'dalvik', 'boot', 'font', 'Chrome', 'kgsl', 'system', 'lib', 'Audio', 
-    'System', '.dat', '/dev/__properties__', 'dex', 'apk', 'web', 'config', 
-    'cfi', 'binder', '.bss', 'thread', 'bionic'}
 mem_obj = dict()
 
 def mem_snapshot(line:str):
     try:
         line = line.split()
         start = line[0]
+        end = line[1]
         size = int(line[2], 16)
         if len(line) >= 5:
             objfile = line[4]
@@ -21,25 +18,11 @@ def mem_snapshot(line:str):
             mem_obj[objfile] = [mem_obj[objfile][0] + 1, mem_obj[objfile][1] + size]
         else:
             mem_obj[objfile] = [1, size]
-        good = True
-        for word in wrong_words:
-            if word in objfile:
-                good = False
-                break
-        if not good:
+        if objfile != '[anon:libc_malloc]':
             return None
         offset = 0
-        dump = bytes()
-        bytes_str = ''
-        start_int = int(start, 16)
-        print(size, objfile)
-        while offset < size:
-            dump_str = gdb.execute(f'x/{min(128, size - len(bytes_str)/2)}xb {start_int + offset}', to_string=True)
-            for line in dump_str.split('\n'):
-                for s in line.split()[1:]:
-                    bytes_str += s[2:]
-            offset += 128
-        dump = bytes.fromhex(bytes_str)
+        gdb.execute(f'dump binary memory dump.bin {start} {end}')
+        dump = open('./dump.bin', 'rb').read()
         return (start, size, objfile, dump)
     except:
         return None
