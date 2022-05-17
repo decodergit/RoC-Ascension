@@ -1,4 +1,0 @@
-603788 +++ exited (status 1) +++
-601152 --- SIGCHLD (Child exited) ---
-603789 --- Called exec() ---
-603789 --- SIGTERM (Terminated) ---
