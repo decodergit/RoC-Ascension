@@ -44,20 +44,24 @@ else:
 dump = pickle.load(open('./mem.dump', 'rb'))
     
 
-index = 0
+index = 1
 if first:
     print('Запаситесь терпением и отложите игру, не выключая её. Это НА ДОЛГО ;)')
     for key in dump.keys():
         print(f'{index}/{len(dump)} {key}')
         index += 1
         offset = 0
+        last_percent = -1
         while offset + 20 < len(dump[key]):
             variant = Variant()
             variant.add(dump[key][offset: offset + 20])
             if variant.state:
                 vars[(key, offset)] = variant
             offset += 4
-            print(f'{int(offset * 100.0/len(dump[key])):3d}% ({len(vars)})', end='\r')
+            percent = int(offset * 100.0/len(dump[key]))
+            if percent != last_percent:
+                print(f'{percent:3d}% ({len(vars)})', end='\r')
+                last_percent = percent
         print(f'100% ({len(vars)})')
 else:
     new_vars = dict()
