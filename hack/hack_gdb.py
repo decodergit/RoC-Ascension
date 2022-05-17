@@ -14,10 +14,6 @@ def mem_snapshot(line:str):
         else:
             objfile = ''
             return None
-        if objfile in mem_obj:
-            mem_obj[objfile] = [mem_obj[objfile][0] + 1, mem_obj[objfile][1] + size]
-        else:
-            mem_obj[objfile] = [1, size]
         if objfile != '[anon:libc_malloc]':
             return None
         offset = 0
