@@ -20,7 +20,7 @@ class Variant:
         values = list()
         for i in range(5):
             value = int.from_bytes(data[i*4: (i + 1)*4], byteorder="little")
-            if not 1 <= value <= number_of_goods:
+            if not 0 <= value <= 32: #1 <= value <= number_of_goods:
                 self.state = False
                 return
             values.append(value)
@@ -29,7 +29,7 @@ class Variant:
             self.state = False
             return
         self.blocks.append(data)
-        if len(self.blocks) > 1 and len(set(self.blocks)) < len(self.blocks):
+        if len(self.blocks) > 1 and len(set(self.blocks)) + 1 < len(self.blocks):
             self.state = False
             return
         self.blocks_values.append(values)
